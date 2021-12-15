@@ -1,0 +1,4 @@
+<h1>{{contact.name}}</h1>
+<h1>{{contact.email}}</h1>
+<h1>{{contact.username}}</h1>
+<input type="text" [defaultValue]="contact.name" placeholder="modifier" (input)="onNameChange($event)">

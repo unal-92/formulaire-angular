@@ -1,0 +1,20 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+    <div>
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" formControlName="name" placeholder="Name"><br>
+    </div>
+
+    <div>
+        <label for="lemail">Email:</label><br>
+        <input type="email" id="lemail" formControlName="email" placeholder="Email"><br>
+    </div>
+
+    <div>
+        <label for="lpseudo">Username:</label><br>
+        <input type="text" id="lpseudo" formControlName="username" placeholder="Username"><br>
+    </div>
+
+    <input type="submit" value="Submit">
+
+</form>
